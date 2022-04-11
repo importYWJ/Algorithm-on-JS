@@ -4,7 +4,8 @@
   "description": "readme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/importYWJ/Algorithm-on-JS/issues"
   },
-  "homepage": "https://github.com/importYWJ/Algorithm-on-JS#readme"
+  "homepage": "https://github.com/importYWJ/Algorithm-on-JS#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
