@@ -1,0 +1,19 @@
+{
+  "name": "algorithm-on-js",
+  "version": "1.0.0",
+  "description": "readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/importYWJ/Algorithm-on-JS.git"
+  },
+  "author": "importYWJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/importYWJ/Algorithm-on-JS/issues"
+  },
+  "homepage": "https://github.com/importYWJ/Algorithm-on-JS#readme"
+}
