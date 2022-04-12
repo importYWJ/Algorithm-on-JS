@@ -25,6 +25,7 @@ class DLinkList {
     }
     this.length++;
   }
+
   // 2. 序列查找(同单链表)
   getData(position) {
     if (position < 0 || position >= this.length) return null;
@@ -35,6 +36,7 @@ class DLinkList {
     }
     return currentNode.data;
   }
+
   // 3. 按索引查找(同单链表)
   indexOf(data) {
     if (this.length === 0) return null; 
@@ -48,6 +50,7 @@ class DLinkList {
       index++;
     }
   }
+
   // 4. 插入(s;s;后;前)
   insert(position, data) {
     const newDNode = new this.DNode(data)
@@ -76,6 +79,7 @@ class DLinkList {
     this.length++;
     return newDNode;
   }
+
   // 3. 删除
   removeAt(position) {
     if (position < 0 || position >= this.length) return null;
@@ -97,12 +101,15 @@ class DLinkList {
     this.length--;
     return currentDNode;
   }
+
   remove(data) {
     this.removeAt(this.indexOf(data))
   }
+
   isEmpty() {
     return this.length === 0;
   }
+  
   size() {
     return this.length;
   }
